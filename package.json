@@ -1,0 +1,21 @@
+{
+  "author": "Florian Traverse <florian.traverse@gmail.com>",
+  "name": "hook.io-schedule",
+  "description": "emit arbitrary Hook.io events with arbitrary data on specified schedule",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/temsa/hookio-schedule.git"
+  },
+  "bin": {
+     "hookio-schedule": "./bin/schedule"
+   },
+  "main": "./lib/schedule",
+  "engines": {
+    "node": "0.4.x"
+  },
+  "dependencies": {
+    "hook.io" : "0.6.x"
+  },
+  "devDependencies": {}
+}
